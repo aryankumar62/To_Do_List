@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffffff 0%, #99ccff 100%);
+  color: #ff3300;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.theme{
+ display: flex;
+ justify-content: flex-end;
+ margin: 20px;   
+}
+.mode{
+    
+    margin-right: 4px;
+    height: 30px;
+    width: 30px;
+    border-radius: 2rem;
+}
+
+#blue{
+    background-color: #000066;
+}
+#black{
+    background-color: black;
+}
+#white{
+    background-color: white;
+}
+h1{
+    top: 7%;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.task{
+    text-align: center;
+    
+}
+
+input{
+  width: 300px;    
+  height: 35px;     
+  padding: 10px; 
+  margin-right: 0px;
+  font-size: 16px;    
+  border: 1px solid #ccc;
+  border-top-left-radius: 60px;   
+  border-bottom-left-radius: 60px;
+}
+
+#add{
+    width: 60px;
+    height: 56px;
+    margin-left: 0px;
+    border: 1px solid #ccc;
+    border-top-right-radius: 60px;   
+    border-bottom-right-radius: 60px;
+}
+
+#datetime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    font-size: large;
+}
+
+#myUnorderList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 8px;
+    
+}
+
+#todo-list{
+   font-size: 30px;
+}
+
+.delete-btn{
+    margin-left: 50px;
+    margin-right: 20px;
+    height: 40px;
+    width: 70px;
+    border-radius: 2rem;
+}
+.complete-btn{
+    margin-left: 20px;
+    height: 40px;
+    width: 70px;
+    border-radius: 2rem;
+}
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.complete-btn:hover {
+  background-color: darkgreen;
+}
