@@ -119,5 +119,10 @@ function showTasks() {
     todoList.appendChild(li);
   });
 }
-
+input.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault(); 
+    addTask();
+  }
+});
 showTasks();
