@@ -109,3 +109,26 @@ input{
 .complete-btn:hover {
   background-color: darkgreen;
 }
+@media (max-width: 600px) {
+  
+  h1 {
+    font-size: 30px;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  #add {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  #todo-list {
+    font-size: 18px;
+  }
+}
