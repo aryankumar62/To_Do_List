@@ -9,6 +9,7 @@ A simple and interactive To-Do List web app built using HTML, CSS, and JavaScrip
 - Data saved using localStorage
 - Theme switch (Blue, Black, White)
 - Live date & time display
+- Mobile responsive
 
 ## 🛠 Tech Used
 - HTML
